@@ -1,0 +1,99 @@
+.banner {
+		background-color: #25262a;
+		color: #ffffff;
+		overflow: hidden;
+		padding: 30px;
+		position: relative;
+		text-align: center;
+}
+
+.banner:before {
+		background-color: #23409a;
+		background-size: cover;
+		bottom: 0;
+		content: '';
+		left: 0;
+		opacity: 0.5;
+		position: absolute;
+		right: 0;
+		top: 0;
+}
+
+.banner > div {
+		margin: 0 auto;
+		max-width: 980px;
+		position: relative;
+		z-index: 2;
+}
+
+.banner > div.btn-group {
+		z-index: 1;
+}
+
+.banner h1 {
+		font-size: 3rem;
+		font-weight: 400;
+		margin: 0;
+		text-transform: uppercase;
+}
+
+.banner p {
+		font-size: 1rem;
+}
+
+.banner .btn-group a {
+		border: 1px solid #ffffff;
+		border-radius: 50px;
+		box-shadow: 0 0 0 9999px rgba(197, 164, 126, 0);
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1rem;
+		font-weight: 300;
+		padding: 1rem 2rem;
+		text-decoration: none;
+		vertical-align: baseline;
+		word-break: break-word;
+		-webkit-transition: all 500ms ease-in-out;
+		transition: all 500ms ease-in-out;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+}
+
+.banner .btn-group a:hover {
+		background-color: rgba(255, 255, 255, .75);
+		box-shadow: 0 0 0 9999px rgba(237, 164, 85, .95);
+		color: #404041;
+}
+
+.banner .btn-group a:active {
+		box-shadow: 0 0 0 9999px rgba(197, 164, 126, .25);
+}
+/* Custom code for the demo */
+
+html,
+body {
+		height: 100%;
+		width: 100%;
+}
+
+body {
+		background-color: #25262a;
+		font-family: "Helvetica", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		display: table;
+		margin: 0;
+}
+
+.banner {
+		display: table-cell;
+		vertical-align: middle;
+}
+
+.tx{
+    font-family: "Helvetica";
+    line-height:1.6em
+}
